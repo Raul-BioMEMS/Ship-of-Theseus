@@ -1,0 +1,10 @@
+# Rust binaries and build artifacts
+/target/
+**/*.rs.bk
+
+# Application Data (Specific to your code)
+/sessions/
+
+# IDE and OS files
+.vscode/
+.DS_Store
