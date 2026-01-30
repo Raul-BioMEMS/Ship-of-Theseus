@@ -1,1 +1,12 @@
-target/
+# Ignore the heavy build artifacts (Rust binaries)
+/target/
+
+# Ignore local session data/history
+/sessions/
+
+# Ignore OS-specific trash
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code local settings
+.vscode/
